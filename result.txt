@@ -1,0 +1,109 @@
+NODE 1
+	original position: (0.0, 0.0)
+	displacement: (0.0, 0.0) with norm 0.0
+	displaced position: (0.0, 0.0)
+	reaction: (-7513.0363, 6089.8571) with norm 9671.1981
+
+NODE 2
+	original position: (400.0, 0.0)
+	displacement: (0.0156, -0.0743) with norm 0.0759
+	displaced position: (400.0156, -0.0743)
+
+NODE 3
+	original position: (800.0, 0.0)
+	displacement: (0.0313, -0.0954) with norm 0.1004
+	displaced position: (800.0312, -0.0954)
+
+NODE 4
+	original position: (1200.0, 0.0)
+	displacement: (0.0431, -0.0693) with norm 0.0816
+	displaced position: (1200.0431, -0.0693)
+
+NODE 5
+	original position: (1600.0, 0.0)
+	displacement: (0.055, 0.0) with norm 0.055
+	displaced position: (1600.055, 0.0)
+	reaction: (10.3711, 8902.1637) with norm 8902.1697
+
+NODE 6
+	original position: (400.0, 300.0)
+	displacement: (0.0451, -0.0743) with norm 0.0869
+	displaced position: (400.0451, 299.9257)
+
+NODE 7
+	original position: (800.0, 300.0)
+	displacement: (0.0331, -0.1004) with norm 0.1057
+	displaced position: (800.0331, 299.8996)
+
+NODE 8
+	original position: (1200.0, 300.0)
+	displacement: (0.0185, -0.0693) with norm 0.0717
+	displaced position: (1200.0185, 299.9307)
+
+------------------------------------------
+
+
+BAR 1 (1 → 2) : ⊕ TENSION
+	∆l (elongation) = 0.0156
+	ϵ (strain) = 3.908e-05
+	σ (stress) = 781.5951
+
+BAR 2 (2 → 3) : ⊕ TENSION
+	∆l (elongation) = 0.0156
+	ϵ (strain) = 3.906e-05
+	σ (stress) = 781.2777
+
+BAR 3 (3 → 4) : ⊕ TENSION
+	∆l (elongation) = 0.0119
+	ϵ (strain) = 2.969e-05
+	σ (stress) = 593.7925
+
+BAR 4 (4 → 5) : ⊕ TENSION
+	∆l (elongation) = 0.0119
+	ϵ (strain) = 2.970e-05
+	σ (stress) = 594.0502
+
+BAR 5 (6 → 7) : ⊖ COMPRESSION
+	∆l (elongation) = -0.0121
+	ϵ (strain) = -3.021e-05
+	σ (stress) = -604.1242
+
+BAR 6 (7 → 8) : ⊖ COMPRESSION
+	∆l (elongation) = -0.0146
+	ϵ (strain) = -3.646e-05
+	σ (stress) = -729.1064
+
+BAR 7 (2 → 6) : ⊕ TENSION
+	∆l (elongation) = 0.0
+	ϵ (strain) = 4.843e-09
+	σ (stress) = 0.0969
+
+BAR 8 (3 → 7) : ⊖ COMPRESSION
+	∆l (elongation) = -0.005
+	ϵ (strain) = -1.667e-05
+	σ (stress) = -333.333
+
+BAR 9 (4 → 8) : ⊕ TENSION
+	∆l (elongation) = 0.0
+	ϵ (strain) = 3.373e-09
+	σ (stress) = 0.0675
+
+BAR 10 (1 → 6) : ⊖ COMPRESSION
+	∆l (elongation) = -0.0085
+	ϵ (strain) = -1.691e-05
+	σ (stress) = -338.2421
+
+BAR 11 (6 → 3) : ⊕ TENSION
+	∆l (elongation) = 0.0015
+	ϵ (strain) = 3.039e-06
+	σ (stress) = 60.7893
+
+BAR 12 (3 → 8) : ⊕ TENSION
+	∆l (elongation) = 0.0054
+	ϵ (strain) = 1.085e-05
+	σ (stress) = 217.0464
+
+BAR 13 (8 → 5) : ⊖ COMPRESSION
+	∆l (elongation) = -0.0124
+	ϵ (strain) = -2.473e-05
+	σ (stress) = -494.5523
